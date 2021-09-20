@@ -1,0 +1,31 @@
+//cara 1
+START
+DISPLAY "Type Temperature"
+SWITCH type as String
+CASE 1. DISPLAY "Fahrenheit"
+	INPUT temp as NUMBER
+	CALCULATE temp = temp - 32 * (5/9)
+CASE 2. DISPLAY "Kelvin"
+	INPUT temp as NUMBER
+	CALCULATE temp = temp - 273.15
+CASE 3. DISPLAY "Celcius"
+	INPUT temp as NUMBER
+	CALCULATE temp = temp
+END
+
+
+//cara 2
+START
+INPUT temp as NUMBER
+DISPLAY "Type Temperature"
+INPUT type as STRING
+IF type == "Fahrenheit" THEN
+     CALCULATE temp = temp - 32 * (5/9)
+ELSE IF type == "Kelvin" THEN
+     CALCULATE temp = temp - 273.15
+ELSE IF type == "Celcius" THEN
+     CALCULATE temp = temp
+END
+
+
+

@@ -1,0 +1,11 @@
+START
+INPUT word as STRING
+a = 0
+x = lenghtofstring(word) - 1
+WHILE (a < x)
+     IF (word[a] is-not-equal word[x])
+	DISPLAY FALSE
+     a++
+     x--
+DISPLAY TRUE
+END

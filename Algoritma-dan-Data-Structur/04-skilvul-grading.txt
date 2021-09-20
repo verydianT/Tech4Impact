@@ -1,0 +1,12 @@
+START
+NUMBER grade
+INPUT grade (0-100)
+IF grade < 68 THEN
+   DISPLAY grade
+ELSE IF grade >= 68 && grade mod 5 == 4 THEN
+   DISPLAY grade+1
+ELSE IF grade >= 68 && grade mod 5 == 3 THEN
+   DISPLAY grade+2
+ELSE
+   DISPLAY grade
+END
