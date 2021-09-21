@@ -12,3 +12,7 @@
 12. Add this change to the staging area. **git add .**
 13. Commit with the message "removing first.txt". **git commit -m "removing first.txt"**
 14. Check out your commits using git log. **git log**
+
+
+<img width="488" alt="git 1" src="https://user-images.githubusercontent.com/87766711/134169813-2f7de49f-3c2f-4889-86a3-f7465b4a8c71.png">
+<img width="488" alt="git 2" src="https://user-images.githubusercontent.com/87766711/134169832-10cea91c-49ab-4ac5-ab5c-1b75bc0bd53b.png">
