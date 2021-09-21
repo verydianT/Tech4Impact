@@ -1,6 +1,6 @@
-Create a folder called 'git-basic'. **mkdir git-basic**
-'cd' into the 'git-basic' folder. **cd git-basic**
-Create a file called 'first.txt'. **touch first.txt**
+1. Create a folder called 'git-basic'. **mkdir git-basic**
+2. 'cd' into the 'git-basic' folder. **cd git-basic**
+3. Create a file called 'first.txt'. **touch first.txt**
 Initialize an empty git repository. **git init**
 Add 'first.txt' to the staging area. **git add first.txt**
 Commit with the message "adding first.txt". **git commit -m "adding first.txt"**
