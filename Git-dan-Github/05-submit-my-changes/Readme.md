@@ -9,3 +9,7 @@
 9. git checkout master // git merge verydianT
 10. git push
 11. pull request
+
+<img width="945" alt="nomer 1" src="https://user-images.githubusercontent.com/87766711/134205357-85601bfd-06dd-4104-8fe5-58a35632fa72.png">
+<img width="484" alt="nomer 6" src="https://user-images.githubusercontent.com/87766711/134205363-ee7dbc63-153a-4520-b7e1-247440e46414.png">
+<img width="945" alt="nomer 11" src="https://user-images.githubusercontent.com/87766711/134205369-d32def58-c3f1-47fe-a2e6-beea34dbbdfe.png">
