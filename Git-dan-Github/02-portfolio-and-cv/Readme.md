@@ -14,5 +14,5 @@
 8. git checkout master
 9. echo -e "\n\nIni adalah update pertama pada branch master" >> README.md // git add // git commit -m "update master pertama"
    ![image](https://user-images.githubusercontent.com/87766711/134196459-bd1247ac-039d-4b19-b283-654a1d2492b6.png)
-11. git merge CV
+11. git merge cv
 12. git remote add origin https://github.com/verydianT/Git.git // git push -u origin master
