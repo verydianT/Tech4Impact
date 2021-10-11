@@ -1,0 +1,15 @@
+1. Apa itu localStorage?
+    localStorage adalah tempat dimana tempat dimana data informasi tersimpan dalam memori lokal
+    dan hanya dapat diakses oleh domain tempat menyimpan  data. Lokal storage tidak memiliki batasan
+    waktu tersimpan. Dan untuk menghapus localStorage yaitu dengan menmbersihkan cache browser.
+
+2. Apa itu cookies?
+    cookies adalah data kecil yang dikirim oleh website dan akan tersimpan di dalam komputer. Masa 
+    berlaku cookies bervariasi, tergantung dari jenis dan durasi kadaluarsannya. cookies ini yang merupakan
+    file yang menghias suatu website, melakukan data pencarian hingga mengakses suatu token. ukuran cookies
+    sangat kecil, kurang dari 4KB.
+
+3. Apa perbedaan antara localStorage dan sessionStorage?
+    perbedaannya terletak dari waktu penyimpanan storage tersebut.
+    jika localStorage ia akan tetap tersimpan selama belum dibersihkan melalui cache browser.
+    sedangkan sessionStorage ia akan terhapus dengan sendirinya jika kita menutup browser tersebut.
