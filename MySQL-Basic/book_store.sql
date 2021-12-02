@@ -17,13 +17,11 @@ CREATE TABLE books(
     creation_date datetime not null default current_timestamp on update current_timestamp
 );
 
-SELECT * FROM books;
 ALTER TABLE books
     add price int default 0,
     add status enum('available', 'out of stock', 'limited'),
     drop place_sell;
 
-SELECT * FROM books;
 INSERT INTO books VALUES
     (1, 'agus', 'bagas', 'juli', 'React', 'belajar react', 11, DEFAULT, 15000, 'available'),
     (2, 'fikri', 'gina', 'jess', 'My Sql', 'belajar mysql', 8, DEFAULT, 10000, 'out of stock'),
