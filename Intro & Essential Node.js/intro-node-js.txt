@@ -1,0 +1,38 @@
+1. Mohon jelaskan apa itu Node.js? Apa perbedannya dengan JavaScript?
+2. Mohon jelaskan arsitektur dari Node.js?
+3. Ape perbedaan antara Built-in Module, External Module, dan Custom Module pada Node.js?
+4. Sebutkan salah satu contoh dari Built-in Module, External Module, dan Custom Module pada Node.js?
+
+Jawab
+1. Node JS adalah sebuah runtime environment javascript dengan berjalan pada engines V8 dan bersifat open source dan cross platform.
+   Bedanya dengan JavaScript yaitu javascript sebagai bahasa operationalnya dan Node js sebagai runtime environmentnya.
+
+2. Arsitektur dari Node JS terdiri atas 3 bagian yaitu :
+    - penggunaan engine V8 sebagai compiler javascript
+    - Libuv library sebagai sarana pengelola asynchronous I/O dan main event loop
+    - design pattern dengan object pool dan facade
+
+   Sedangkan arsitektur dari pemrograman Node Js adalah “Single Threaded Event Loop” atau terdiri dari :
+    - single thread JS, menggunakan satu panggilan digunakan untuk menjalankan suatu program
+    - even loop JS, sebagai wadah penampung ketika terdapat perintah baru yang akan dieksekusi dan memeriksa secara terus menerus hingga
+        semua perintah selesai di eksekusi
+    - server side scripting, sebagai tempat menerima request dari user, lalu diproses, dan mengembalikan sebuah respons ke user
+
+3. Built-in Module : merupakan modul bawaan node js jadi hanya perlu di import tanpa harus instalasi
+   External Module : modul yang dapat digunakan dalam node js dari pihak ketiga, dan perlu melakukan install menggunakan npm atau yarn
+   Custom Module   : modul yang dapat kita buat dan definisikan sendiri pada Node JS
+
+4. Built-in Module : url, http, os, path, dll
+   External Module : npm install express atau yarn install express
+   Custom Module   : contoh dengan membuat sebuah file pertambahan
+            - buat file count.js
+            - isi dalam file
+                export.plus = function (a,b){
+                    return a + b;
+                };
+            - panggil module untuk digunakan
+                var math = require('./count');
+                var a = 2, b = 3;
+
+                console.log("math of 2 plus 3 = " + math.plus(a,b));
+            -maka akan menampilkan "math of 2 plus 3 = 5"
