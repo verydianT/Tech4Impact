@@ -2,7 +2,7 @@
 Database Schema :
 - Full Name
 - Email
-- Phone Number
+- Phone Number <br>
 Relationships : One-to-One
 
    ```json
@@ -18,7 +18,7 @@ Relationships : One-to-One
 Database Schema :
 - Full Name
 - Email
-- Address (Max 2)
+- Address (Max 2) <br>
 Relationships : One-to-few/many
 
    ```json
@@ -41,7 +41,7 @@ Relationships : One-to-few/many
 Database Schema :
 - Product Name
 - Brand Name
-- Variants
+- Variants <br>
 Relationships : One-to-many
 
    ```json
@@ -70,7 +70,7 @@ Database Schema :
 - Cinema Name
 - Films (collection)
 - Location Film:
-- Film Name
+- Film Name <br>
 Relationships : One-to-many
 
 Cinema Schema
