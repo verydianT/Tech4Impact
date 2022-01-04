@@ -1,0 +1,21 @@
+{
+  "name": "online-course",
+  "version": "1.0.0",
+  "description": "[heroku](https://deploy-mongo.herokuapp.com/)<br> [Postman_documentation](https://documenter.getpostman.com/view/18603867/UVRHiiGg)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
