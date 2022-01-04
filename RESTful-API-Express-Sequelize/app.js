@@ -7,7 +7,6 @@ app.use(express.urlencoded({
   extended: true
 }));
 
-  
 const sequlize = new Sequelize({
   host: "localhost",
   dialect: "mysql",
@@ -27,7 +26,6 @@ sequlize
   .catch((err) => {
       console.log("unable to connect", err);
   });
-
 
 const Hewan = sequlize.define(
   "hewans", {
