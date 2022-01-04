@@ -35,7 +35,7 @@ const Hewan = sequlize.define(
           allowNull: false,
           autoIncrement: true,
       },
-      nama: {
+      name: {
           type: Sequelize.STRING,
           allowNull: false,
       },
